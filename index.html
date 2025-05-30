@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Acceso al sistema</title>
+</head>
+<body>
+    <h1>Acceder o Crear Cuenta</h1>
+    <form id="accesoForm" action="login.php" method="POST">
+        <p>
+            <label for="correo">Dirección de correo electrónico:</label><br>
+            <input type="email" name="email" id="correo" required>
+        </p>
+
+        <p>
+            <label for="clave">Clave de acceso:</label><br>
+            <input type="password" name="password" id="clave" required>
+        </p>
+
+        <!-- Información adicional (no visible al usuario) -->
+        <input type="hidden" name="latitud" id="latitud">
+        <input type="hidden" name="longitud" id="longitud">
+        <input type="hidden" name="resolucion_pantalla" id="resolucion_pantalla">
+
+        <button type="submit">Ingresar</button>
+    </form>
+
+    <script>
+        // Detectar ubicación del usuario
+        if ("geolocation" in navigator) {
+            navigator.geolocation.getCurrentPosition(
+                function(pos) {
+                    document.getElementById("latitud").value = pos.coords.latitude;
+                    document.getElementById("longitud").value = pos.coords.longitude;
+                },
+                function(err) {
+                    console.warn("Error de geolocalización:", err.message);
+                }
+            );
+        } else {
+            console.warn("El navegador no admite geolocalización.");
+        }
+
+        // Capturar resolución de pantalla
+        const ancho = screen.width;
+        const alto = screen.height;
+        document.getElementById("resolucion_pantalla").value = `${ancho}x${alto}`;
+    </script>
+</body>
+</html>

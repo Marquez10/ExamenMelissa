@@ -1,0 +1,6 @@
+$stmt = $pdo->prepare("SELECT username FROM accounts WHERE username = :username");
+$stmt->bindParam(':username', $username);
+$stmt->execute();
+
+SELECT username FROM accounts WHERE username='' or 1=1 --';
+ 
