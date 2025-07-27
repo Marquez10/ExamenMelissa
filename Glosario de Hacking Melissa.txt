@@ -1,0 +1,202 @@
+1. ACK: Es una bandera del protocolo TCP usada para confirmar la recepción de datos.
+2. Active Directory: Es un servicio de directorio de Microsoft utilizado para gestionar identidades y accesos dentro de redes empresariales.
+3. Active Reconnaissance: Técnica de reconocimiento que interactúa directamente con el objetivo, como el escaneo de puertos o servicios.
+4. Adware: Software que muestra anuncios y puede recolectar información del usuario, a veces usado con fines maliciosos.
+5. AES: Algoritmo de cifrado simétrico avanzado ampliamente utilizado para proteger datos sensibles.
+6. Agent: Programa o script que se instala en un sistema para permitir su control remoto o monitoreo.
+7. API Enumeration: Proceso de identificar y listar funciones expuestas por interfaces API.
+8. APK Analysis: Técnica para analizar aplicaciones Android y detectar posibles vulnerabilidades.
+9. AppSec: Rama de la seguridad enfocada en proteger las aplicaciones desde el desarrollo.
+10. ARP: Protocolo que traduce direcciones IP a direcciones MAC dentro de redes locales.
+11. ARP Poisoning: Ataque que manipula las tablas ARP para interceptar tráfico entre dispositivos.
+12. Asset Inventory: Registro de todos los dispositivos, sistemas y recursos tecnológicos de una red.
+13. Attack Chain: Conjunto de pasos que sigue un atacante para comprometer un sistema.
+14. Attack Surface: Totalidad de los puntos vulnerables que pueden ser atacados en un sistema.
+15. Authentication Bypass: Técnica que permite eludir mecanismos de autenticación y acceder sin credenciales válidas.
+16. Authorization: Proceso que determina qué acciones puede realizar un usuario dentro de un sistema.
+17. Backdoor: Acceso oculto y no autorizado que permite el control del sistema sin detección.
+18. Base64: Método de codificación de datos utilizado para ocultar información o evadir filtros.
+19. Black Hat: Hacker que actúa con fines maliciosos o criminales.
+20. Blind Injection: Inyección que no da resultados visibles, pero permite inferir vulnerabilidades.
+21. Botnet: Red de dispositivos infectados controlados remotamente para ejecutar ataques.
+22. Brute Force Attack: Método de adivinación de contraseñas probando todas las combinaciones posibles.
+23. Buffer Overflow: Vulnerabilidad que permite sobrescribir la memoria para ejecutar código malicioso.
+24. Burp Suite: Herramienta profesional para realizar pruebas de seguridad en aplicaciones web.
+25. BYOD: Política de empresa que permite a empleados usar sus propios dispositivos, aumentando riesgos de seguridad.
+26. Certificate Pinning: Técnica que vincula una aplicación a un certificado específico para evitar suplantación.
+27. Chain of Custody: Documentación detallada del manejo de evidencia digital desde su recolección hasta su análisis.
+28. CHAP: Protocolo de autenticación usado en conexiones PPP para verificar la identidad del usuario.
+29. Clickjacking: Técnica que engaña al usuario para que haga clic en algo que no ve.
+30. Cloud Enumeration: Recolección de información sobre servicios y recursos disponibles en la nube.
+31. Code Injection: Técnica que permite introducir y ejecutar código arbitrario en una aplicación vulnerable.
+32. Command Injection: Variante de inyección que permite ejecutar comandos directamente en el sistema operativo.
+33. Common Ports: Puertos de red usados frecuentemente por servicios conocidos como HTTP (80), HTTPS (443).
+34. Confidentiality: Principio de seguridad que garantiza que la información sólo sea accesible a usuarios autorizados.
+35. Cookie Hijacking: Robo de cookies de sesión para suplantar la identidad del usuario.
+36. Credentials Dumping: Técnica usada para extraer credenciales almacenadas en sistemas comprometidos.
+37. Cross-Origin Resource Sharing (CORS): Política de seguridad que regula el intercambio de recursos entre sitios web.
+38. Cross-Site Scripting (XSS): Inyección de código JavaScript en sitios web que afecta a otros usuarios.
+39. CSRF: Ataque que hace que un usuario autenticado ejecute acciones maliciosas sin saberlo.
+40. CVE: Identificador único para vulnerabilidades de seguridad registradas públicamente.
+41. CWE: Clasificación de las debilidades más comunes en software según su tipo.
+42. Cyber Kill Chain: Modelo que describe las fases de un ciberataque, desde el reconocimiento hasta la ejecución.
+43. Cybersecurity Mesh: Enfoque arquitectónico que distribuye los controles de seguridad en entornos complejos.
+44. DAC: Control Discrecional de Acceso, permite al propietario decidir quién accede a sus recursos.
+45. DDoS: Ataque de denegación de servicio distribuido que satura un servidor usando múltiples fuentes.
+46. Decryption: Proceso que transforma información cifrada de vuelta a su forma original.
+47. Deep Packet Inspection: Análisis avanzado del contenido completo de los paquetes de red.
+48. Default Credentials: Usuario y contraseña predeterminados, muchas veces no cambiados, creando riesgo de seguridad.
+49. Detection Evasion: Conjunto de técnicas para evitar la detección por antivirus, firewalls o IDS.
+50. Dictionary Attack: Método para romper contraseñas usando listas de palabras comunes.
+51. Digital Footprint: Toda la información que un usuario deja expuesta en línea.
+52. Digital Forensics: Investigación y análisis de evidencias digitales tras un incidente de seguridad.
+53. Directory Bruteforce: Ataque de fuerza bruta para descubrir archivos y directorios ocultos en un servidor web.
+54. Directory Listing: Vulnerabilidad que expone el contenido de directorios web.
+55. Directory Traversal: Exploita rutas inseguras para acceder a archivos fuera del directorio autorizado.
+56. DNS Cache Poisoning: Técnica que introduce entradas falsas en la caché de DNS para redirigir tráfico.
+57. DNS Enumeration: Técnica para recolectar registros DNS como MX, A y CNAME.
+58. DNS Recon: Reconocimiento de infraestructura usando registros DNS públicos.
+59. DNS Zone Transfer: Extracción completa de registros DNS a través de una mala configuración del servidor.
+60. DoS: Denegación de servicio que busca hacer un sistema inaccesible.
+61. Dump File: Archivo que contiene datos volcados de la memoria o el sistema.
+62. Eavesdropping: Intercepción pasiva de tráfico para recopilar datos sensibles.
+63. EDR: Software de monitoreo y respuesta en endpoints contra amenazas avanzadas.
+64. Egress Filtering: Control de tráfico saliente para evitar fugas de datos.
+65. Encoding: Conversión de datos a otro formato para almacenamiento o transmisión.
+66. Encryption: Cifrado de información para evitar que terceros la lean.
+67. Enumeration: Descubrimiento detallado de recursos como usuarios, grupos, servicios y dispositivos.
+68. Environment Variables: Variables del sistema operativo que a veces contienen secretos o rutas sensibles.
+69. Escalation of Privileges: Proceso de obtener mayores permisos del sistema tras una intrusión inicial.
+70. Ethical Hacking: Práctica legal y controlada de buscar vulnerabilidades con fines de mejora de seguridad.
+71. Evil Twin: Punto de acceso falso que simula ser legítimo para robar información.
+72. Exploit: Código o técnica que se aprovecha de una vulnerabilidad en un sistema.
+73. Exposure: Cualquier elemento o información accesible públicamente que representa un riesgo.
+74. File Inclusion: Vulnerabilidad que permite cargar archivos maliciosos desde el servidor o una fuente externa.
+75. Fingerprinting: Técnica de identificación de sistemas operativos, versiones y tecnologías usadas en un host.
+76. Firewall: Sistema de filtrado de tráfico que protege redes o equipos contra accesos no autorizados.
+77. FOCA: Herramienta de recopilación de metadatos que analiza documentos para descubrir información sensible.
+78. Footprinting: Proceso inicial de reconocimiento donde se recolecta información del objetivo usando fuentes abiertas.
+79. Forensics: Ciencia que estudia rastros digitales para identificar acciones pasadas en un sistema.
+80. Forward DNS: Consulta de DNS para obtener la dirección IP asociada a un dominio.
+81. Fuzzer: Programa que genera entradas aleatorias o malformadas para detectar fallos en una aplicación.
+82. GET Request: Solicitud HTTP que obtiene recursos del servidor; puede revelar información en la URL.
+83. GPS Spoofing: Técnica para falsificar señales de localización y engañar dispositivos dependientes de GPS.
+84. Hacker Ético: Profesional autorizado que identifica vulnerabilidades para mejorar la seguridad.
+85. Hash: Representación única de datos, útil para integridad, almacenamiento de contraseñas y análisis forense.
+86. Hashcat: Herramienta de craqueo de hashes por fuerza bruta o diccionario.
+87. Heap Overflow: Variante de buffer overflow que afecta la memoria dinámica usada por el sistema.
+88. Hping: Herramienta de red para enviar paquetes TCP/IP personalizados y analizar comportamiento de red.
+89. HTTP Header Injection: Técnica para manipular cabeceras HTTP e insertar contenido malicioso.
+90. HTTPS: Versión segura de HTTP que cifra la comunicación entre cliente y servidor.
+91. Hyperlink Injection: Técnica para insertar enlaces maliciosos en páginas web.
+92. ICMP: Protocolo usado para diagnósticos de red como el comando "ping".
+93. IDS (Intrusion Detection System): Sistema que monitorea y alerta sobre posibles ataques o comportamientos anómalos.
+94. IMAP Hijacking: Ataque que intercepta credenciales y sesiones de correo electrónico.
+95. Information Disclosure: Fuga de información sensible debido a errores de configuración o programación.
+96. Insecure Deserialization: Vulnerabilidad que permite ejecutar código malicioso al procesar datos deserializados.
+97. Input Validation: Práctica de verificar que los datos ingresados cumplan con criterios seguros.
+98. Insider Threat: Riesgo originado por empleados o usuarios internos con acceso legítimo.
+99. Integrity: Propiedad de la seguridad que asegura que los datos no han sido alterados.
+100. IP Address: Dirección lógica que identifica un dispositivo en una red.
+101. IP Spoofing: Suplantación de dirección IP para hacerse pasar por otro dispositivo.
+102. IPV6 Reconnaissance: Exploración específica para redes que usan IPv6 en vez de IPv4.
+103. Jailbreaking: Técnica para eliminar restricciones de seguridad en dispositivos iOS.
+104. JavaScript Injection: Inserción de código JavaScript en páginas vulnerables para alterar comportamiento.
+105. John the Ripper: Herramienta de craqueo de contraseñas muy usada en pruebas de penetración.
+106. Kali Linux: Distribución de Linux especializada en pruebas de penetración y hacking ético.
+107. Kerberos: Protocolo de autenticación en redes, objetivo común de ataques de pass-the-ticket.
+108. Keylogger: Software o hardware que registra las teclas pulsadas para robar información.
+109. Lateral Movement: Técnica de moverse entre sistemas tras acceder inicialmente a uno.
+110. LDAP Enumeration: Proceso para identificar usuarios, grupos y políticas en entornos con LDAP.
+111. LFI (Local File Inclusion): Vulnerabilidad que permite leer archivos locales del servidor web.
+112. Link Analysis: Técnica de OSINT para encontrar relaciones entre dominios, IPs y registros.
+113. Linux Exploit Suggester: Script que detecta vulnerabilidades explotables en sistemas Linux.
+114. Log Injection: Técnica para insertar contenido malicioso en archivos de registro.
+115. Log Poisoning: Alteración intencionada de logs para ocultar rastros del atacante.
+116. Mac Spoofing: Técnica que modifica la dirección MAC de un dispositivo para ocultar identidad.
+117. Maltego: Herramienta de inteligencia visual para análisis de relaciones y recolección de datos.
+118. Malware: Software diseñado para dañar, robar o comprometer sistemas informáticos.
+119. Man-in-the-Middle (MITM): Ataque que intercepta y potencialmente modifica la comunicación entre dos partes.
+120. Metasploit: Plataforma para desarrollar y ejecutar exploits de manera automatizada.
+121. MITRE ATT&CK: Marco de referencia que categoriza técnicas usadas por atacantes reales.
+122. Mobile Recon: Reconocimiento específico de aplicaciones y dispositivos móviles.
+123. MTR (My Traceroute): Herramienta que combina traceroute y ping para analizar rutas de red.
+124. Mutillidae: Aplicación web vulnerable usada para entrenar en pruebas de penetración.
+125. NAC Bypass: Técnicas para evadir controles de acceso a redes empresariales.
+126. NetBIOS Enumeration: Recolección de nombres de dispositivos y recursos compartidos en Windows.
+127. Netcat: Herramienta básica de red para lectura, escritura y redirección de datos por TCP o UDP.
+128. Network Sniffing: Captura de paquetes de red para analizar su contenido.
+129. Nmap: Herramienta de escaneo de red para descubrir hosts, puertos y servicios.
+130. Null Session: Conexión anónima a recursos compartidos que puede exponer información.
+131. OAUTH Token Theft: Robo de tokens de autorización que permiten acceder a servicios sin contraseña.
+132. OS Detection: Identificación del sistema operativo mediante técnicas de fingerprinting.
+133. OSINT (Open Source Intelligence): Recolección de inteligencia desde fuentes públicas y abiertas.
+134. OWASP ZAP: Escáner gratuito de vulnerabilidades para aplicaciones web.
+135. Packet Analyzer: Herramienta que permite examinar tráfico de red en profundidad (como Wireshark).
+136. Packet Crafting: Creación manual de paquetes para pruebas específicas o ataques.
+137. Packet Sniffer: Programa que intercepta y captura tráfico de red.
+138. Pass the Hash: Ataque que reutiliza hashes de contraseñas en vez de la contraseña original.
+139. Passive Reconnaissance: Recolección de información sin interactuar directamente con el objetivo.
+140. Password Cracking: Proceso de descubrir contraseñas mediante ataques de fuerza bruta o diccionario.
+141. Payload: Parte del exploit que realiza una acción específica en el sistema comprometido.
+142. Persistence Mechanism: Técnica que garantiza que el atacante mantenga acceso al sistema incluso tras reinicios.
+143. Phishing: Engaño mediante correos o páginas falsas para robar credenciales u otra información.
+144. Pivoting: Movimiento lateral en una red a través de un equipo ya comprometido.
+145. Port Knocking: Técnica que permite abrir puertos cerrados mediante una secuencia específica de intentos.
+146. Port Scanning: Exploración de puertos para descubrir servicios activos en un dispositivo.
+147. Privilege Escalation: Aumento de privilegios para obtener mayor control sobre un sistema.
+148. Proxychains: Herramienta de Kali Linux para enrutar tráfico a través de múltiples proxies.
+149. Public Exploits: Código disponible públicamente para explotar vulnerabilidades conocidas.
+150. Pwned Passwords: Base de datos de contraseñas filtradas o comprometidas.
+151. Python Exploits: Scripts escritos en Python para explotar vulnerabilidades específicas.
+152. RCE (Remote Code Execution): Vulnerabilidad que permite ejecutar código arbitrario en un sistema remoto.
+153. Recon-ng: Herramienta de recolección de información en modo consola para OSINT.
+154. Red Team: Grupo que simula ataques reales para evaluar la seguridad organizacional.
+155. Regex Injection: Técnica que explota la evaluación insegura de expresiones regulares.
+156. Reverse Shell: Conexión donde el equipo víctima contacta al atacante permitiendo el control remoto.
+157. Risk Assessment: Evaluación de los riesgos potenciales en la infraestructura tecnológica.
+158. Root Access: Acceso total y sin restricciones en sistemas Unix/Linux.
+159. Rootkit: Malware que oculta su presencia para mantener acceso persistente al sistema.
+160. RST Scan: Técnica de escaneo pasivo para descubrir hosts activos.
+161. Sandbox Evasion: Técnicas para evitar ser detectado o ejecutado en entornos de análisis.
+162. Scapy: Herramienta en Python para manipular y analizar paquetes de red.
+163. Session Hijacking: Toma del control de una sesión activa entre un usuario y un sistema.
+164. Shodan: Motor de búsqueda que permite encontrar dispositivos conectados y expuestos en internet.
+165. SIEM: Plataforma que centraliza registros y eventos de seguridad para su análisis.
+166. SMB Enumeration: Recolección de recursos y usuarios usando el protocolo SMB.
+167. Smishing: Variante de phishing a través de mensajes SMS.
+168. Snort: Sistema de detección de intrusiones basado en firmas.
+169. Social Engineering: Técnica para manipular a personas y obtener acceso o información.
+170. Spoofing: Técnica de suplantación de identidad o dirección.
+171. SQL Injection: Inserción de comandos SQL en formularios web para manipular bases de datos.
+172. SSL Stripping: Ataque que convierte conexiones HTTPS a HTTP para interceptar datos.
+173. Steganography: Técnica para ocultar información dentro de otros archivos, como imágenes.
+174. Subdomain Enumeration: Recolección de subdominios relacionados con un dominio principal.
+175. TCP Dump: Herramienta de línea de comandos para capturar tráfico de red.
+176. Threat Actor: Individuo o grupo responsable de realizar un ataque.
+177. Threat Hunting: Búsqueda proactiva de amenazas no detectadas dentro de una red.
+178. Token Hijacking: Suplantación de identidad mediante robo de tokens de sesión.
+179. Traffic Analysis: Evaluación del flujo de datos para identificar patrones sospechosos.
+180. Traceroute: Comando que muestra la ruta que sigue un paquete hasta un host.
+181. Trojan: Malware que se oculta dentro de un archivo legítimo.
+182. Tunneling: Técnica que permite enviar protocolos no autorizados a través de otros permitidos.
+183. UDP Flood: Ataque de denegación de servicio basado en paquetes UDP.
+184. URL Obfuscation: Técnica que esconde o disfraza direcciones web para engañar al usuario.
+185. User Enumeration: Descubrimiento de usuarios válidos en una aplicación o sistema.
+186. UTM (Unified Threat Management): Dispositivo que integra múltiples funciones de seguridad en uno solo.
+187. Virus: Malware que se replica a sí mismo e infecta archivos legítimos.
+188. VLAN Hopping: Ataque que permite acceder a redes separadas lógicamente.
+189. VPN: Red privada virtual que cifra las comunicaciones y oculta la IP real.
+190. Vulnerability Assessment: Evaluación de sistemas para identificar debilidades explotables.
+191. WAF: Firewall de aplicaciones web que protege contra ataques como XSS o SQLi.
+192. War Driving: Recolección de redes inalámbricas abiertas mientras se transita en vehículo.
+193. Web Shell: Script malicioso cargado en un servidor web para controlarlo remotamente.
+194. Web Spider: Programa que navega sitios web automáticamente para recolectar información.
+195. WHOIS: Servicio que proporciona información del registro de dominios.
+196. WiFi Cracking: Técnicas para romper contraseñas de redes inalámbricas.
+197. Wireshark: Herramienta de análisis de paquetes de red usada para inspección y diagnóstico.
+198. Worm: Malware que se replica y se propaga sin necesidad de interacción humana.
+199. XSS Stored: Tipo de XSS donde el código malicioso se guarda en la base de datos.
+200. Zero-Day: Vulnerabilidad desconocida para el proveedor y sin parche disponible.
+
+
